@@ -9,22 +9,30 @@
   </head>
   
   <body>
-    <a-scene>
+    <a-scene fog="type: linear; color: #0077b6; near: 1; far: 5">
       <a-assets>
         <a-asset-item id="myvending" src="assets/Vending.glb"></a-asset-item>
+        <a-asset-item id="mycan" src="assets/SodaCan.glb"></a-asset-item>
       </a-assets>
 
-      <a-entity gltf-model="assets/Vending.glb" position="-1.62025 0.41449 -4.11518" scale="0.2 0.2 0.2"></a-entity>
+      <a-entity gltf-model="assets/Vending.glb" position="-1.54039 0.41449 -4.11518" scale="0.2 0.2 0.2"></a-entity>
+      
+      <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.72785 -3.46546" scale="0.015 0.015 0.015" rotation="0 90 70"></a-entity>
+      <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.80618 -3.28149" scale="0.015 0.015 0.015" rotation="0 110 59.99999999999999"></a-entity>
+      <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.89979 -3.11227" scale="0.015 0.015 0.015" rotation="0 59.99999999999999 55"></a-entity>
+      <a-entity gltf-model="assets/SodaCan.glb" position="-0.09362 0.99455 -2.9924" scale="0.015 0.015 0.015" rotation="0 40 45"></a-entity>
+      <a-entity gltf-model="assets/SodaCan.glb" position="-0.22736 1.08608 -2.88915" scale="0.015 0.015 0.015" rotation="0 20 45"></a-entity>
       
       <a-box position="-0.02946 0.07672 -4.03316" color="#4CC3D9" scale="2 0.2 2"></a-box>
+      <a-entity light="type: ambient; color: blue; intensity: 1"></a-entity>
+      <a-sky color="#0077b6"></a-sky>
       <a-plane
         position="0 0 -4"
         rotation="-90 0 0"
-        width="4"
-        height="4"
+        width="40"
+        height="40"
         color="#7BC8A4"
       ></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
       <a-camera> </a-camera>
     </a-scene>
   </body>
