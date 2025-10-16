@@ -10,42 +10,50 @@
   
   <body>
     <a-scene fog="type: linear; color: #0077b6; near: 1; far: 4">
-      <a-assets>
-        <a-asset-item id="myvending" src="assets/Vending.glb"></a-asset-item>
-        <a-asset-item id="mycan" src="assets/SodaCan.glb"></a-asset-item>
-      </a-assets>
 
-      <a-entity gltf-model="assets/Vending.glb" position="-1.54039 0.41449 -4.11518" scale="0.2 0.2 0.2"></a-entity>
-      
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.72785 -3.46546" scale="0.015 0.015 0.015" rotation="0 90 70"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.80618 -3.28149" scale="0.015 0.015 0.015" rotation="0 110 59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.89979 -3.11227" scale="0.015 0.015 0.015" rotation="0 59.99999999999999 55"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.09362 0.99455 -2.9924" scale="0.015 0.015 0.015" rotation="0 40 45"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.22736 1.08608 -2.88915" scale="0.015 0.015 0.015" rotation="0 20 45"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.36839 1.21387 -2.88915" scale="0.015 0.015 0.015" rotation="0 -50 59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.48875 1.32086 -3.05211" scale="0.015 0.015 0.015" rotation="0 -50 59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.60122 1.42608 -3.25117" scale="0.015 0.015 0.015" rotation="0 -90 59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.62025 1.51074 -3.44813" scale="0.015 0.015 0.015" rotation="0 -100 90"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.62025 1.51074 -3.63831" scale="0.015 0.015 0.015" rotation="0 -100 90"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="1.06694 1.79306 -4.07704" scale="0.015 0.015 0.015" rotation="-50 20 20"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.66616 1.6776 -3.96295" scale="0.015 0.015 0.015" rotation="0 -59.99999999999999 50"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="-0.74238 1.78598 -4.13774" scale="0.015 0.015 0.015" rotation="0 -59.99999999999999 50"></a-entity>
+        <a-assets>
+          <a-asset-item id="myvending" src="assets/Vending.glb"></a-asset-item>
+          <a-asset-item id="mycan" src="assets/SodaCan.glb"></a-asset-item>
+        </a-assets>
 
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.06577 0.89979 -3.11227" scale="0.015 0.015 0.015" rotation="0 35 -50"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.1831 0.99451 -3.2054" scale="0.015 0.015 0.015" rotation="0 10 -59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.36503 1.10027 -3.2054" scale="0.015 0.015 0.015" rotation="0 10 -59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.50525 1.21302 -3.23309" scale="0.015 0.015 0.015" rotation="-61.75 29.999999999999996 -59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.61231 1.26029 -3.38551" scale="0.015 0.015 0.015" rotation="-61.75 -40 -59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.82705 1.25253 -3.38551" scale="0.015 0.015 0.015" rotation="-61.75 -49.94 -74"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.98046 1.30081 -3.38551" scale="0.015 0.015 0.015" rotation="-20 20 -59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="0.99649 1.3395 -3.60572" scale="0.015 0.015 0.015" rotation="-20 50 -59.99999999999999"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="1.09148 1.47934 -3.80406" scale="0.015 0.015 0.015" rotation="50 50 20"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="1.09148 1.62935 -3.80406" scale="0.015 0.015 0.015" rotation="-50 -50 20"></a-entity>
-      <a-entity gltf-model="assets/SodaCan.glb" position="1.06694 1.79306 -4.07704" scale="0.015 0.015 0.015" rotation="-50 20 20"></a-entity>
+      <a-entity position="1 0 0.52">
+
+        <a-entity gltf-model="assets/Vending.glb" position="-1.54039 0.41449 -4.11518" scale="0.2 0.2 0.2"></a-entity>
+        
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.72785 -3.46546" scale="0.015 0.015 0.015" rotation="0 90 70"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.80618 -3.28149" scale="0.015 0.015 0.015" rotation="0 110 59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.0157 0.89979 -3.11227" scale="0.015 0.015 0.015" rotation="0 59.99999999999999 55"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.09362 0.99455 -2.9924" scale="0.015 0.015 0.015" rotation="0 40 45"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.22736 1.08608 -2.88915" scale="0.015 0.015 0.015" rotation="0 20 45"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.36839 1.21387 -2.88915" scale="0.015 0.015 0.015" rotation="0 -50 59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.48875 1.32086 -3.05211" scale="0.015 0.015 0.015" rotation="0 -50 59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.60122 1.42608 -3.25117" scale="0.015 0.015 0.015" rotation="0 -90 59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.62025 1.51074 -3.44813" scale="0.015 0.015 0.015" rotation="0 -100 90"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.62025 1.51074 -3.63831" scale="0.015 0.015 0.015" rotation="0 -100 90"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="1.06694 1.79306 -4.07704" scale="0.015 0.015 0.015" rotation="-50 20 20"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.66616 1.6776 -3.96295" scale="0.015 0.015 0.015" rotation="0 -59.99999999999999 50"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="-0.74238 1.78598 -4.13774" scale="0.015 0.015 0.015" rotation="0 -59.99999999999999 50"></a-entity>
+
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.06577 0.89979 -3.11227" scale="0.015 0.015 0.015" rotation="0 35 -50"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.1831 0.99451 -3.2054" scale="0.015 0.015 0.015" rotation="0 10 -59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.36503 1.10027 -3.2054" scale="0.015 0.015 0.015" rotation="0 10 -59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.50525 1.21302 -3.23309" scale="0.015 0.015 0.015" rotation="-61.75 29.999999999999996 -59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.61231 1.26029 -3.38551" scale="0.015 0.015 0.015" rotation="-61.75 -40 -59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.82705 1.25253 -3.38551" scale="0.015 0.015 0.015" rotation="-61.75 -49.94 -74"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.98046 1.30081 -3.38551" scale="0.015 0.015 0.015" rotation="-20 20 -59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="0.99649 1.3395 -3.60572" scale="0.015 0.015 0.015" rotation="-20 50 -59.99999999999999"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="1.09148 1.47934 -3.80406" scale="0.015 0.015 0.015" rotation="50 50 20"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="1.09148 1.62935 -3.80406" scale="0.015 0.015 0.015" rotation="-50 -50 20"></a-entity>
+        <a-entity gltf-model="assets/SodaCan.glb" position="1.06694 1.79306 -4.07704" scale="0.015 0.015 0.015" rotation="-50 20 20"></a-entity>
+        
+        <a-box position="-0.02946 0.07672 -4.03316" color="#01497c" scale="2 0.2 2"></a-box>
+        <a-entity light="color: blue; intensity: 0.2; type: ambient"></a-entity>
+
+        <a-plane position="0.41169 1.61969 -3.57229" rotation="0 14.95 0" width="2" height="4" material="shader: flat; color: rgba(0,67,67,1)" animation="dir: alternate; from: #00FFFF; loop: true; property: material.color; to: #000000" scale="0.05 0.025 0.81">
+        </a-plane>
+
+      </a-entity>
       
-      
-      <a-box position="-0.02946 0.07672 -4.03316" color="#4CC3D9" scale="2 0.2 2"></a-box>
-      <a-entity light="type: ambient; color: blue; intensity: 1"></a-entity>
       <a-sky color="#0077b6"></a-sky>
       <a-plane
         position="0 0 -4"
@@ -54,8 +62,10 @@
         height="40"
         color="#7BC8A4"
       ></a-plane>
-        <a-camera position="1.38748 1.42706 -1.66165" rotation="-1.145915590261645 60 0" camera="active: true"> </a-camera>
+      
+      
+
+      <a-camera position="1.38748 1.42706 -1.66165" rotation="-1.145915590261645 60 0" camera="active: true"> </a-camera>
     </a-scene>
-  </body>
   </body>
 </html>
